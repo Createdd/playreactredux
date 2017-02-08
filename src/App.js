@@ -8,10 +8,18 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>📆 Calendar for learning</h2>
         </div>
+        <figure>
+          <img
+            src="https://image.slidesharecdn.com/reactreduxintroduction-151124165017-lva1-app6891/95/react-redux-introduction-33-638.jpg?cb=1448383914"
+            alt="reduxchart" height="200px"
+          />
+
+          <figcaption>Redux model as a REMINDER!!!!</figcaption>
+        </figure>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          <strong> 📆📆📆📆I want to display  a calendar here 🚀 </strong>
         </p>
       </div>
     );
