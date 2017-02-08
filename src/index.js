@@ -1,10 +1,9 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
+import App from './App';
+import './index.css';
 
-const Root = () => {
-  return (
-    <div>hello</div>
-  )
-};
-
-render(<Root/>, document.querySelector('#main'));
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
