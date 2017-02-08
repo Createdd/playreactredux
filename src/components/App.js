@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router';
+
+//import style/logo
 import logo from '../logo.svg';
 import '../styles/App.css';
 
@@ -7,20 +10,12 @@ export default class App extends React.Component {
     return (
       <div className="App">
         <div className="App-header">
+          <Link to="/">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>📆 Calendar for learning</h2>
+          </Link>
+          {React.cloneElement(this.props.children, this.props)}
         </div>
-        <figure>
-          <img
-            src="https://image.slidesharecdn.com/reactreduxintroduction-151124165017-lva1-app6891/95/react-redux-introduction-33-638.jpg?cb=1448383914"
-            alt="reduxchart" height="200px"
-          />
-
-          <figcaption>Redux model as a REMINDER!!!!</figcaption>
-        </figure>
-        <p className="App-intro">
-          <strong> 📆📆📆📆I want to display  a calendar here 🚀 </strong>
-        </p>
       </div>
     );
   }
