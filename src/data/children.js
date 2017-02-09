@@ -10,6 +10,6 @@ const children = [
   {
     "name": "Mathilde Persephone",
     "display_src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/AMI_-_Isis-Persephone.jpg/1024px-AMI_-_Isis-Persephone.jpg"
-  },
+  }
 ];
 export default children;
