@@ -15,7 +15,7 @@ const router = (
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Overview} />
-      <Route path="/view/:day" compomnent={Child} />
+      <Route path="/view/:child" component={Child} />
     </Route>
   </Router>
 );

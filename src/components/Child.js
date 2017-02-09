@@ -5,7 +5,7 @@ export default class Child extends React.Component {
     return (
       <div className="App">
         <p className="App-intro">
-          <strong> 📆TODAY ------📆 </strong>
+          <strong> EIN KIND  : ) </strong>
         </p>
       </div>
     );
