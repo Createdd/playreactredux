@@ -10,6 +10,8 @@ import Child from './components/Child';
 
 //import react router dependencies
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+import { Provider } from 'react-redux';
+import store, { history } from './store/store';
 
 const router = (
   <Router history={browserHistory}>

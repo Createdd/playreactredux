@@ -1,4 +1,4 @@
-export default children = [
+const children = [
   {
     "name": "Peter Babuschka",
     "display_src": "http://f.tqn.com/y/ancienthistory/1/L/O/9/4/98953030.jpg"
@@ -12,3 +12,4 @@ export default children = [
     "display_src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/AMI_-_Isis-Persephone.jpg/1024px-AMI_-_Isis-Persephone.jpg"
   },
 ];
+export default children;

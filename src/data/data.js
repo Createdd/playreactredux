@@ -1,4 +1,4 @@
-export default data = [
+const data = [
   {
     "name": "Peter Babuschka",
     "Tel" : "069912345678",
@@ -18,3 +18,4 @@ export default data = [
     "display_src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/AMI_-_Isis-Persephone.jpg/1024px-AMI_-_Isis-Persephone.jpg"
   },
 ];
+export default data;
