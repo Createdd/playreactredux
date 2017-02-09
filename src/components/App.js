@@ -12,7 +12,7 @@ export default class App extends React.Component {
         <div className="App-header">
           <Link to="/">
             <img src={logo} className="App-logo" alt="logo" />
-            <h2>📆 Calendar for learning</h2>
+            <h2>🚀🍹Checking People in 🚀🍹</h2>
           </Link>
         </div>
         {React.cloneElement(this.props.children, this.props)}

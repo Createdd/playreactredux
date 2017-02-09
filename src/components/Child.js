@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Today extends React.Component {
+export default class Child extends React.Component {
   render() {
     return (
       <div className="App">

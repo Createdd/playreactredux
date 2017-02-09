@@ -15,7 +15,7 @@ export default class Overview extends React.Component {
 
         <div className="App">
           <p className="App-intro">
-            <strong> 📆📆📆📆 OVERVIEW HERE🚀 </strong>
+            <strong> 🚀🍹 Overview over Participants</strong>
           </p>
         </div>
       </div>
