@@ -6,7 +6,7 @@ export default data = [
     "display_src": "https://images.unsplash.com/photo-1483425571841-9662f86c7154?dpr=2&auto=format&fit=crop&w=767&h=382&q=80&cs=tinysrgb&crop="
   },
   {
-    "name": "Franz Turnherr",
+    "name": "Pallas Athene",
     "Tel" : "069945345678",
     "category" : "brave child",
     "display_src": "https://images.unsplash.com/photo-1483425571841-9662f86c7154?dpr=2&auto=format&fit=crop&w=767&h=382&q=80&cs=tinysrgb&crop="

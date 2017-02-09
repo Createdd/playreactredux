@@ -1,5 +1,5 @@
 // add infos of child
-function addInfo(infoId, name, tel, cat) {
+export function addInfo(infoId, name, tel, cat) {
   return {
     type: 'ADD_INFO',
     infoId,
@@ -10,7 +10,7 @@ function addInfo(infoId, name, tel, cat) {
 }
 
 // remove infos
-function removeInfo(infoId, i) {
+export function removeInfo(infoId, i) {
   return {
     type: 'REMOVE_INFO',
     infoId,
