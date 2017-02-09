@@ -5,7 +5,7 @@ import Main from './Main';
 
 function mapStateToProps(state) {
   return {
-    children: state.children,
+    childs: state.childs,
     data: state.data
   };
 }
