@@ -6,7 +6,7 @@ import './styles/index.css';
 //import components
 import App from './components/App';
 import Overview from './components/Overview';
-import Child from './components/Child';
+import Detail from './components/Detail';
 
 //import react router dependencies
 import { Router, Route, IndexRoute } from 'react-router';
@@ -18,7 +18,7 @@ const router = (
     <Router history={history}>
       <Route path="/" component={App}>
         <IndexRoute component={Overview} />
-        <Route path="/view/:child" component={Child} />
+        <Route path="/view/:child" component={Detail} />
       </Route>
     </Router>
   </Provider>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Child from './Child';
 
 export default class Overview extends React.Component {
   render() {
@@ -18,7 +19,9 @@ export default class Overview extends React.Component {
             🚀🍹 Overview over Participants
           </h1>
         </div>
-        {this.props.childs.map((item, key) => <li key={key}>{JSON.stringify(item)}</li>)}
+        {this.props.childs.map((item, key) => (
+          <Child {...this.props} key={key} childs={item} />
+        ))}
       </div>
     );
   }
