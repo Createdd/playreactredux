@@ -7,7 +7,6 @@ export default class Detail extends React.Component {
       <div>
         <Link to={`/view/${this.props.childs.name}`}>
           <figure>
-
             <img
               src={this.props.childs.display_src}
               alt={this.props.childs.name}
@@ -15,6 +14,7 @@ export default class Detail extends React.Component {
             />
             <figcaption>
               {this.props.childs.name}
+              <button>Edit Child</button>
             </figcaption>
           </figure>
         </Link>

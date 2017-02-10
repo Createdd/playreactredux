@@ -1,12 +1,17 @@
 import React from 'react';
+import Child from './Child';
 
 export default class Detail extends React.Component {
   render() {
+
+    const i = this.props.childs.findIndex(
+      (child) => child.name === this.props.params.child
+    );
+    const childs = this.props.childs[i];
+//why will childs be passed as props?
     return (
-      <div className="App">
-        <p className="App-intro">
-          <strong> Details  : ) </strong>
-        </p>
+      <div>
+        <Child i={i} childs={childs} />
       </div>
     );
   }

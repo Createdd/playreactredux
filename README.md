@@ -1,3 +1,32 @@
+## 📝 Author
+[<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/854371/profile/profile-80_2.jpg" align="right">](http://ddcreationstudios.at/)
+
+##### Daniel Deutsch <kbd>[Github](https://github.com/DDCreationStudios) / [FreeCodeCamp](https://www.freecodecamp.com/ddcreationstudios) / [CodePen](http://codepen.io/ddcreationstudios/) / [LinkedIn](https://www.linkedin.com/in/daniel-deutsch-b95611127) / [Medium](https://medium.com/@ddcreationstudi) / [Site](http://ddcreationstudios.at/) /  [E-Mail](mailto:deudan1010@gmail.com)</kbd>
+
+# 🌐 Discovering React & Redux  ![App Progress Status](https://img.shields.io/badge/Status-In%20Progress-0520b7.svg?style=plastic)
+
+
+Learning and understanding React, Redux and all their features.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+# Create-React Info
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -911,7 +940,7 @@ This feature is experimental and still [has major usage issues](https://github.c
 
 ### Editor Integration
 
-If you use [Visual Studio Code](https://code.visualstudio.com), there is a [Jest extension](https://github.com/orta/vscode-jest) which works with Create React App out of the box. This provides a lot of IDE-like features while using a text editor: showing the status of a test run with potential fail messages inline, starting and stopping the watcher automatically, and offering one-click snapshot updates. 
+If you use [Visual Studio Code](https://code.visualstudio.com), there is a [Jest extension](https://github.com/orta/vscode-jest) which works with Create React App out of the box. This provides a lot of IDE-like features while using a text editor: showing the status of a test run with potential fail messages inline, starting and stopping the watcher automatically, and offering one-click snapshot updates.
 
 ![VS Code Jest Preview](https://cloud.githubusercontent.com/assets/49038/20795349/a032308a-b7c8-11e6-9b34-7eeac781003f.png)
 
