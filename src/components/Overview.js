@@ -14,10 +14,11 @@ export default class Overview extends React.Component {
         </figure>
 
         <div className="App">
-          <p className="App-intro">
-            <strong> 🚀🍹 Overview over Participants</strong>
-          </p>
+          <h1 className="App-intro">
+            🚀🍹 Overview over Participants
+          </h1>
         </div>
+        {this.props.childs.map((item, key) => <li key={key}>{JSON.stringify(item)}</li>)}
       </div>
     );
   }

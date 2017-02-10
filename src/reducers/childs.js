@@ -1,5 +1,5 @@
 // a reducer takes the action and the current state
 
-export default function data(state = [], action) {
+export default function childs(state = [], action) {
   return state;
 }
