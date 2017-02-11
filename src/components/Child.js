@@ -1,24 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-export default class Detail extends React.Component {
+export default class Child extends React.Component {
   render() {
     return (
-      <div>
-        <Link to={`/view/${this.props.childs.name}`}>
-          <figure>
-            <img
-              src={this.props.childs.display_src}
-              alt={this.props.childs.name}
-              height='200'
-            />
-            <figcaption>
-              {this.props.childs.name}
-              <button>Edit Child</button>
-            </figcaption>
-          </figure>
-        </Link>
-      </div>
+      <Link to={`/view/${this.props.childs.name}`}>
+        <div className="card">
+          <div className="card-image">
+          <img
+            src={this.props.childs.display_src}
+            alt={this.props.childs.name}
+          /></div>
+        <div className="card-content">
+            {this.props.childs.name}
+          </div>
+        </div>
+      </Link>
     );
   }
 }
