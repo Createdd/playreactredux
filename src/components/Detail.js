@@ -9,7 +9,6 @@ export default class Detail extends React.Component {
     );
     const childs = this.props.childs[i];
     const info = this.props.data[i];
-    console.log(info);
     return (
       <div className="row">
         <div className="col s6">
