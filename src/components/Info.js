@@ -1,36 +1,59 @@
 import React from 'react';
 
 export default class Info extends React.Component {
+  handleSubmit(e) {
+    e.preventDefault();
+    const title = this.refs.title.value;
+    const newInfo = this.refs.newInfo.value;
+    this.props.addInfo(title, newInfo);
+  }
   render() {
     return (
-      <form className="col s4">
+      <div className="col s4">
         <div className="row">
           <div className="col s12">
-            Telephone:
-            <input
-              placeholder={this.props.info.tel}
-              type="text"
-              className="validate"
+            <b>Telephone: </b>
+            {this.props.info.tel}
+          </div>
+        </div>
+        <div className="row">
+          <div className="col s12">
+            <b>Category: </b>
+            {this.props.info.category}
+          </div>
+        </div>
+        <div className="row">
+          <div className="col s12">
+            Picture:
+
+
+            <img
+              src={this.props.info.display_src}
+              alt={this.props.info.name}
+              className="responsive-img"
             />
           </div>
+        </div>
+        <form className="row" ref="infoForm" onSubmit={this.handleSubmit.bind(this)}>
+          <div className="col s12">
+            <h5>Add new Info ⏬</h5>
+            <input
+              placeholder="Titel"
+              type="text"
+              className="validate"
+              ref="title"
+            />
+            <input
+              placeholder="New info"
+              type="text"
+              className="validate"
+              ref="newInfo"
+            />
+            <input type="submit" hidden />
           </div>
-          <div className="row">
-            <div className="col s12">
-              Category:
-              <input
-                placeholder={this.props.info.category}
-                type="text"
-                className="validate"
-              />
-            </div>
-            </div>
-            <div className="row">
-              <div className="col s12">
-                Picture:
-                <img src={this.props.info.display_src} alt={this.props.info.name} className="responsive-img"/>
-              </div>
-              </div>
-      </form>
+        </form>
+
+      </div>
     );
   }
 }
