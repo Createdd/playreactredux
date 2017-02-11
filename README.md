@@ -8,7 +8,7 @@
 
 Learning and understanding React, Redux and all their features.
 
-<img src="http://i.imgur.com/o18dNAQ.png"> 
+<img src="http://i.imgur.com/7j3YZWK.png"> 
 
 
 
