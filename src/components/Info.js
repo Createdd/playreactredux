@@ -5,28 +5,29 @@ export default class Info extends React.Component {
     e.preventDefault();
     const title = this.refs.title.value;
     const newInfo = this.refs.newInfo.value;
-    this.props.addInfo(title, newInfo);
+    this.refs.infoForm.reset();
   }
   render() {
     return (
       <div className="col s4">
         <div className="row">
           <div className="col s12">
+            <button onClick={this.props.removeInfo}>❌</button>
             <b>Telephone: </b>
             {this.props.info.tel}
           </div>
         </div>
         <div className="row">
           <div className="col s12">
+            <button onClick={this.props.removeInfo}>❌</button>
             <b>Category: </b>
             {this.props.info.category}
           </div>
         </div>
         <div className="row">
           <div className="col s12">
+            <button onClick={this.props.removeInfo}>❌</button>
             Picture:
-
-
             <img
               src={this.props.info.display_src}
               alt={this.props.info.name}
