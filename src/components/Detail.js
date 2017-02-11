@@ -11,7 +11,7 @@ export default class Detail extends React.Component {
 //why will childs be passed as props?
     return (
       <div>
-        <Child i={i} childs={childs} />
+        <Child {...this.props} i={i} childs={childs} />
       </div>
     );
   }

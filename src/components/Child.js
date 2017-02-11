@@ -10,7 +10,7 @@ export default class Detail extends React.Component {
             <img
               src={this.props.childs.display_src}
               alt={this.props.childs.name}
-              height='100'
+              height='200'
             />
             <figcaption>
               {this.props.childs.name}
