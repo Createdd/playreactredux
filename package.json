@@ -6,7 +6,7 @@
     "gh-pages": "^0.12.0",
     "react-scripts": "0.8.5"
   },
-  "homepage": "https://github.com/DDCreationStudios/playreactredux",
+  "homepage": "https://ddcreationstudios.github.io/playreactredux/",
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
