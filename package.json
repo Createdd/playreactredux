@@ -2,6 +2,9 @@
   "name": "playreactredux",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "7.0.0"
+  },
   "devDependencies": {
     "react-scripts": "0.8.5"
   },
