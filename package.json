@@ -6,6 +6,9 @@
     "node": "7.0.0",
     "yarn": "0.17.10"
   },
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
